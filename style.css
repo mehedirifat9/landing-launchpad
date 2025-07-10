@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header-section{
+    background: url("./Assets/Hero-bg.png");
+    height: 700px;
+}
+
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.signup-btn{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: raleway;
+    padding: 12px 36px 12px 36px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+}
