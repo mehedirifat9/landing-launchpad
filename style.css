@@ -88,6 +88,9 @@ body {
 .productive-section{
     text-align: center;
     margin-bottom: 140PX;
+    background-color: #4d47ff21;
+    padding: 50px 142px 50px 142px;
+    border-radius: 25px;
 }
 
 .productive-title {
