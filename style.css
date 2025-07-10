@@ -1,31 +1,38 @@
-*{
+* {
     margin: 0;
 }
-.raleway{
-  font-family: "Raleway", sans-serif;
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.inter{
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-header, body{
+header,
+body {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.header-section{
+.header-section {
     background: url("./Assets/Hero-bg.png");
     height: 700px;
     margin-bottom: 116px;
 }
 
-.navbar-section{
+.navbar-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
 
-.button{
+.button {
     font-size: 16px;
     font-weight: bold;
     font-family: raleway;
@@ -35,14 +42,15 @@ header, body{
     background-color: #4E47FF;
     color: white;
 }
-.banner-title{
+
+.banner-title {
     font-size: 65px;
     font-weight: bold;
     font-family: raleway;
     padding-bottom: 40px;
 }
 
-.banner-section{
+.banner-section {
     height: auto;
     display: flex;
     flex-direction: column;
@@ -52,26 +60,57 @@ header, body{
     margin-top: 160px;
 }
 
-.action-section{
+.action-section {
     display: flex;
     justify-content: space-between;
     margin-bottom: 116px;
 }
 
-.action-left-section h3{
+.action-left-section h3 {
     font-size: 42px;
     font-weight: bold;
     color: #252432;
     font-family: raleway;
     padding-bottom: 72px;
 }
-.action-left-section p{
+
+.action-left-section p {
     font-size: 24px;
     font-family: raleway;
     color: #25243280;
     padding-bottom: 24px;
 }
 
-.action-right-section img{
+.action-right-section img {
     border-radius: 50px;
+}
+
+.productive-section{
+    text-align: center;
+    margin-bottom: 140PX;
+}
+
+.productive-title {
+    font-size: 38px;
+    font-family: raleway;
+    color: #252432;
+    font-weight: bold;
+    padding-bottom: 40PX;
+}
+
+.users-data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.users-data h3{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: inter;
+}
+.users-data p{
+    color: #00000080;
+    font-size: 20px;
+    font-family: inter;
 }
