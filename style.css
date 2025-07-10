@@ -24,7 +24,7 @@ header{
     margin-top: 10px;
 }
 
-.signup-btn{
+.button{
     font-size: 16px;
     font-weight: bold;
     font-family: raleway;
@@ -33,4 +33,19 @@ header{
     border-radius: 10px;
     background-color: #4E47FF;
     color: white;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: raleway;
+    padding-bottom: 40px;
+}
+
+.banner-section{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
