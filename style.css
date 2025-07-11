@@ -117,3 +117,63 @@ body {
     font-size: 20px;
     font-family: inter;
 }
+
+.review-title{
+    font-size: 42px;
+    font-family: raleway;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+.review-text h3{ 
+    color: #1E1E1E;
+    font-size: 24px;
+    font-family: inter; 
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.review-text p{ 
+    color: #1E1E1E;
+    font-size: 16px;
+    font-family: inter; 
+}
+
+.reviewer-details{
+    display: flex;
+    gap: 15px;
+}
+
+.reviewer-details img{
+    border-radius: 20px;
+}
+
+.reviewer-details h4{ 
+    color: #757575;
+    font-size: 16px;
+    font-family: inter; 
+    font-weight: 500;
+}
+.reviewer-details h4,  p{ 
+    color: #757575;
+    font-size: 16px;
+    font-family: inter; 
+    font-weight: 500;
+    padding: 2px;
+}
+.review-text{ 
+    margin-bottom: 24px;
+}
+
+.star-icon{
+    margin-bottom: 24px;
+}
+
+.users-review{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.review-section{
+    margin-bottom: 120px;
+}
