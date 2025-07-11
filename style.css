@@ -201,3 +201,34 @@ body {
     border-radius: 48px;
     margin-top: 20px;
 }
+
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.touch-section h1{
+    font-size: 97px;
+    font-weight: bold;
+    font-family: raleway;
+    color: #000000;
+}
+
+.form-data label{
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 500;
+    color: #000000;
+    
+}
+.form-data input{
+    font-size: 20px;
+    font-family: inter;
+    color: #0000007a;
+    padding: 20px 170px 20px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #D6DDED;
+    margin-bottom: 20px;
+}
+
